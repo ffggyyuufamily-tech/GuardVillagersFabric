@@ -1,0 +1,18 @@
+﻿
+> Configure project :
+Fabric Loom: 1.14.10
+
+> Task :compileJava
+.\gradlew : Note: Some input files use or override a deprecated API.
+At line:2 char:45
++ ... rs\User\Java\guard-villagers-main; .\gradlew compileJava 2>&1 | tee c ...
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Note: Some inpu...deprecated API.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Note: Recompile with -Xlint:deprecation for details.
+
+[Incubating] Problems report is available at: file:///C:/Users/User/Java/guard-villagers-main/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 6s
+1 actionable task: 1 executed

@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "guardvillagers",
+	"version": "${version}",
+	"name": "Guard Villagers",
+	"description": "Hire and command villager-styled guards to protect villages and players.",
+	"authors": [
+		"aGamingGod"
+	],
+	"contact": {
+		"homepage": "https://github.com/aGamingGod1234/guard-villagers",
+		"sources": "https://github.com/aGamingGod1234/guard-villagers"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/guardvillagers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.guardvillagers.GuardVillagersMod"
+		],
+		"client": [
+			"com.guardvillagers.client.GuardVillagersClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
